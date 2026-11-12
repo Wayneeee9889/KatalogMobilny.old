@@ -14,11 +14,14 @@
             //etykieta.Parent = MainLayout;
         }
 
-        private void PokazClicked(object sender, EventArgs e)
+        private void PokazButton(object sender, EventArgs e)
         {
             EtykietaWyniku.Text = "Wybrano procesor";
         }
-
+        private void Ukryjbutton(object sender, EventArgs e)
+        {
+            EtykietaWyniku.Text = "nic nie wybrano";
+        }
         /*
         private void CounterBtn_Clicked(object sender, EventArgs e)
         {
