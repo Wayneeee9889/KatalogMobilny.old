@@ -47,7 +47,7 @@
         <Label Grid.Row="5" Grid.Column="1" Text="Produkt dostępny" VerticalOptions="Center" x:Name="AvailableLabel"/>
         <Label Grid.Row="6" Grid.Column="0" Text="Opis" x:Name="EtykietaWartosc"/>
         <!-- tu wyświetlamy info o zmianach -->
-        <Button Grid.Row="8" Grid.Column="0" Text="Dodaj produkt" Clicked="NowyProdukt_Clicked" />
+        <Button Grid.Row="8" Grid.Column="0" Text="Dodaj produkt" Clicked="NowyProdukt_Clicked"/>
         <Button Grid.Row="8" Grid.Column="1" Text="Reset" Clicked="Reset_Clicked"/>
 
         <Label Grid.Row="9" Grid.ColumnSpan="2" x:Name="EtykietaWyniku" Text=""/>
